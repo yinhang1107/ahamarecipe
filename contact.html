@@ -77,70 +77,72 @@
         </div>
       </header>
 
-      <div class="contact__form grid grid--1x2">
-        <form action="https://formspree.io/f/mdoyngnd" method="POST">
-          <div class="form-group">
-            <label for="name">姓名 Name:</label>
-            <input
-              class="form-control"
-              type="text"
-              id="name"
-              name="name"
-              required
-            />
+      <div class="contact__form">
+        <div class="grid grid--1x2">
+          <form action="https://formspree.io/f/mdoyngnd" method="POST">
+            <div class="form-group">
+              <label for="name">姓名 Name:</label>
+              <input
+                class="form-control"
+                type="text"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="mobile">联络号码 Mobile No:</label>
+              <input
+                class="form-control"
+                type="tel"
+                id="mobile"
+                name="mobile"
+                placeholder="012-3456789"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">电邮地址 Email Address:</label>
+              <input
+                class="form-control"
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">讯息 Message:</label>
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                cols="20"
+                rows="4"
+                maxlength="200"
+              ></textarea>
+            </div>
+            <button class="submit__button" type="submit">提交 Submit</button>
+          </form>
+          <div>
+            <iframe
+              class="iframe__maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.0193890776845!2d102.82812802315!3d2.500496516162841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cfd33e07f4eebb%3A0x8c5e7f16df2637da!2s13%2C%20Jalan%20Meranti!5e0!3m2!1sen!2smy!4v1616472453614!5m2!1sen!2smy"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+            <p class="contact__description">
+              <b>AhMa Recipe 阿嬷的秘方</b><br />
+              Max Ng <br />
+              <i class="footer__icon fas fa-phone-alt"></i> 019-777 9629 <br />
+              <i class="footer__icon fas fa-envelope"></i> max-ng email<br />
+              <i class="footer__icon fas fa-map-marked-alt"></i>57-4c, Jalan
+              Meranti 85000 Segamat, Johor, Malaysia
+            </p>
           </div>
-          <div class="form-group">
-            <label for="mobile">联络号码 Mobile No:</label>
-            <input
-              class="form-control"
-              type="tel"
-              id="mobile"
-              name="mobile"
-              placeholder="012-3456789"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="email">电邮地址 Email Address:</label>
-            <input
-              class="form-control"
-              type="email"
-              id="email"
-              name="email"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="message">讯息 Message:</label>
-            <textarea
-              class="form-control"
-              id="message"
-              name="message"
-              cols="20"
-              rows="4"
-              maxlength="200"
-            ></textarea>
-          </div>
-          <button class="submit__button" type="submit">提交 Submit</button>
-        </form>
-        <div>
-          <iframe
-            class="iframe__maps"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.0193890776845!2d102.82812802315!3d2.500496516162841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cfd33e07f4eebb%3A0x8c5e7f16df2637da!2s13%2C%20Jalan%20Meranti!5e0!3m2!1sen!2smy!4v1616472453614!5m2!1sen!2smy"
-            width="400"
-            height="300"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
-          <p class="contact__description">
-            <b>AhMa Recipe 阿嬷的秘方</b><br />
-            Max Ng <br />
-            <i class="footer__icon fas fa-phone-alt"></i> 019-777 9629 <br />
-            <i class="footer__icon fas fa-envelope"></i> max-ng email<br />
-            <i class="footer__icon fas fa-map-marked-alt"></i>57-4c, Jalan
-            Meranti 85000 Segamat, Johor, Malaysia
-          </p>
         </div>
       </div>
     </section>
