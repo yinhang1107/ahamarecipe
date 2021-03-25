@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Delicious Chicken Chop - ready to serve in 8 minutes."
+    />
+    <meta property="og:title" content="AhMaRecipe..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/images/regular-original.jpg" />
+    <title>阿嬷的秘方 - AhMa Recipe</title>
+    <link rel="icon" href="/images/web-icon-big.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/52cd1e3c22.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <span
+      onClick="topFunction()"
+      class="icon icon--round icon__news"
+      id="scrollTopBtn"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </span>
+    <nav class="nav collapsible" data-aos="fade-down">
+      <a class="nav__brand nav__brand__news" href="/">阿嬷的秘方</a>
+      <svg class="icon icon--white nav__toggler">
+        <use xlink:href="/images/sprite(1).svg#menu"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item">
+          <a
+            href="https://ahmarecipe.vvin.com/vmart/?fbclid=IwAR2wUspjyRrD_QSQ4uAvxzgqZruPWHQ38DfWNQBKLU13vbEp_zX12N8QI4A"
+            >Shop</a
+          >
+        </li>
+        <li class="nav__item"><a href="/about.html">About</a></li>
+        <li class="nav__item"><a href="/product.html">Products</a></li>
+        <li class="nav__item"><a href="/news.html">News</a></li>
+        <li class="nav__item"><a href="/contact.html">Contact</a></li>
+      </ul>
+      <ul class="list nav__list nav__list__social collapsible__content">
+        <li>
+          <a
+            href="https://www.facebook.com/ahmarecipe2020/"
+            target="_blank"
+            class="font-icon nav__social"
+            ><span class="fab fa-facebook-f"></span
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UC578LiTnvOnsKQJWIyIOl-Q"
+            target="_blank"
+            class="font-icon nav__social"
+            ><span class="fab fa-youtube"></span
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <section class="block container container-news" data-aos="fade-zoom-in">
+      <header class="block-secondary__header">
+        <h3 class="secondary__header--first">News | 最新消息</h3>
+        <div class="secondary__heading">
+          <h3 class="secondary__heading__item secondary__heading__h3">
+            Latest news, headlines, photos and videos on AhMa Recipe's Facebook.
+          </h3>
+          <p class="secondary__heading__item">
+            关于阿嬷的秘方Facebook专页的最新新闻，头条新闻，照片和视频。
+          </p>
+        </div>
+      </header>
+    </section>
+    <section class="block container block-news">
+      <div class="grid grid--1x2">
+        <iframe
+          class="fb-page"
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fahmarecipe2020%2F&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+          width="500"
+          height="500"
+          style="border: none; overflow: hidden"
+        ></iframe>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <h2 class="carousel__title">What our customers say...</h2>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="/images/testimonial/testimonial-2.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/testimonial/testimonial-3.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/testimonial/testimonial-5.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="/images/testimonial/testomonial-4.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="block block-footer block--footer__news" data-aos="fade-up">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">
+              Ingenuity Marinated. <br />Taste of Sincerity.<br />
+              匠心腌制 调理入味
+            </h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="/images/sprite(1).svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <div class="footer__collapsible__description">
+              Marinated with natural ingredients, lightly seasoned to bring out
+              the best flavor of our chicken chop. <br />
+              加入天然调味料， 轻调入味，将鸡腿的肉香更好的引出来。
+            </div>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">
+              Products<br />产品
+            </h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="/images/sprite(1).svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li class="footer__item">
+                <a href="#">Chicken Chop Series | 鸡扒系列</a>
+              </li>
+              <li class="footer__item">
+                <a href="#">Fitness Chicken Breast Series | 健身鸡胸肉系列</a>
+              </li>
+              <li class="footer__item">
+                <a href="#">AhMa Recipe | 阿嬷的秘方</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">
+              Contact Us<br />联络我们
+            </h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="/images/sprite(1).svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <div class="footer__collapsible__description">
+              Max Ng <br />
+              <i class="footer__icon fas fa-phone-alt"></i> 019-777 9629 <br />
+              <i class="footer__icon fas fa-envelope"></i> max-ng email<br />
+              <i class="footer__icon fas fa-map-marked-alt"></i>57-4c, Jalan
+              Meranti 85000 Segamat, Johor, Malaysia
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="nav__brand">阿嬷的秘方</div>
+        <ul class="list contact__list footer-copyright__list">
+          <li>
+            <a
+              href="mailto:yinhang6305@gmail.com"
+              class="font-icon-container font-icon footer-copyright__item"
+              ><span class="fab fa-facebook-f"></span
+            ></a>
+          </li>
+          <li>
+            <a
+              href="www.linkedin.com/in/yinhang-ng"
+              class="font-icon-container font-icon footer-copyright__item"
+              ><span class="fab fa-youtube"></span
+            ></a>
+          </li>
+          <li>
+            <a
+              href="/CV.pdf"
+              class="font-icon-container font-icon footer-copyright__item"
+              ><span class="fas fa-envelope"></span
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/scrollTop.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
