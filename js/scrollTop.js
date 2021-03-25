@@ -14,7 +14,9 @@ function scrollFunction() {
     scrollTopBtn.style.display = "none";
   }
 }
-
+scrollTopBtn.onclick = function () {
+  topFunction();
+};
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
