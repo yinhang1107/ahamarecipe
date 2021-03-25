@@ -668,7 +668,7 @@ body {
 .icon__news {
   font-size: 20px;
 }
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 999px) {
   .block-news .grid {
     grid-template-columns: 1fr 1fr;
     max-height: 500px;
@@ -696,8 +696,6 @@ body {
   .carousel {
     width: 90%;
   }
-}
-@media screen and (min-width: 768px) {
 }
 
 @media screen and (min-width: 990px) {
