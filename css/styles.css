@@ -559,9 +559,21 @@ body {
   margin-top: 1rem;
 }
 /* Step Block */
+.block-step {
+  font-size: 1.2rem;
+}
 .block-step .grid {
   justify-items: center;
   margin: 6rem 0 0;
+}
+.block-step:first-of-type .grid {
+  margin-top: 0;
+}
+.block-step__header {
+  font-size: 1.2rem;
+}
+#block-step {
+  padding-top: 0;
 }
 
 .step__image {
@@ -580,6 +592,16 @@ body {
   }
   .block-step .grid--1x2 {
     grid-template-columns: 1.5fr auto;
+  }
+  .block-step {
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+  .block-step__header {
+    font-size: 2rem;
+  }
+  #block-step {
+    padding-top: 2rem;
   }
 }
 
