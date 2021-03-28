@@ -859,19 +859,47 @@ input[type="tel"]:focus {
   margin-bottom: 3rem;
 }
 .regular__product__image {
-  width: 100%;
+  position: relative;
   max-height: 300px;
   max-width: 400px;
-  padding: 2rem 1rem;
-  margin: 0 auto;
+  margin: 2rem 1rem;
 }
+.regular__product__image.original {
+  background: url(/images/products/flavored/original-raw.jpg);
+  background-size: 100% 100%;
+}
+.regular__product__image.blackpepper {
+  background: url(/images/products/flavored/blackpepper-raw.jpg);
+  background-size: 100% 100%;
+}
+.regular__product__image.beancurd {
+  background: url(/images/products/flavored/beancurd-raw.jpg);
+  background-size: 100% 100%;
+}
+.regular__product__image.spicy {
+  background: url(/images/products/flavored/spicy-raw.jpg);
+  background-size: 100% 100%;
+}
+.regular__product__image.lemon {
+  background: url(/images/products/flavored/lemongrass-2.jpg);
+  background-size: 100% 100%;
+}
+.regular__product__image img {
+  width: 100%;
+  height: 100%;
+}
+.top__image:hover {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
 .regular__product__buy-now {
   position: absolute;
   right: 30px;
   bottom: 0;
   text-decoration: none;
   font-weight: bold;
-  color: var(--color-theme);
+  color: var(--color-accent);
 }
 .regular__product__buy-now::after {
   content: " >";
@@ -887,9 +915,17 @@ input[type="tel"]:focus {
 .regular__product__description {
   padding: 0 1rem;
 }
+
+@media screen and (min-width: 470px) {
+  .regular__product__image {
+    margin: 2rem auto;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .regular__product__image {
-    padding-right: 5rem;
+    margin-right: 5rem;
+    margin-left: 1rem;
   }
   .block-regular .grid--1x2 {
     grid-template-columns: auto auto;
