@@ -214,6 +214,9 @@ body {
   letter-spacing: 1px;
   margin: 2rem 0 2rem;
 }
+.hero > a {
+  text-align: center;
+}
 .hero__image {
   width: 100%;
   max-height: 542px;
@@ -321,6 +324,9 @@ body {
 }
 .block-showcase .block__heading {
   margin: 0 0 1.5rem;
+}
+.block-showcase > a {
+  text-align: center;
 }
 .block-showcase img {
   width: 100%;
