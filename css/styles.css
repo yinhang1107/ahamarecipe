@@ -215,7 +215,8 @@ body {
   margin: 2rem 0 2rem;
 }
 .hero > a {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .hero__image {
   width: 100%;
@@ -326,7 +327,8 @@ body {
   margin: 0 0 1.5rem;
 }
 .block-showcase > a {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .block-showcase img {
   width: 100%;
