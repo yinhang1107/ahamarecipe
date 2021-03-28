@@ -1,5 +1,5 @@
 :root {
-  --color-theme: #ff5e5e;
+  --color-theme: #171313;
   --color-accent: #ff3400;
   --color-headings: #1b0760;
   --color-body: #413d53;
@@ -10,7 +10,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  max-width: 1270px;
 }
 
 /* Typography */
@@ -90,8 +89,9 @@ body {
 .nav__item > a {
   color: #f2e1cc;
   text-decoration: none;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   transition: color 0.3s;
+  text-align: center;
 }
 .nav__item > a:hover {
   color: #fff;
@@ -129,6 +129,10 @@ body {
 .nav__list__social li {
   margin: 1rem 0;
 }
+.nav__item__english {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
 
 @media screen and (min-width: 768px) {
   .nav {
@@ -148,6 +152,10 @@ body {
   }
   .nav__item {
     border: 0;
+  }
+  .nav__item__english {
+    display: block;
+    margin: 0;
   }
 }
 
@@ -281,7 +289,8 @@ body {
   width: 100%;
   overflow: hidden;
   border-radius: 10px;
-  max-height: 250px;
+  max-height: 300px;
+  max-width: 350px;
 }
 .block-shopify__image img {
   width: 100%;
