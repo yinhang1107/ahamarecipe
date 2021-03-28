@@ -217,6 +217,7 @@ body {
 .hero__image {
   width: 100%;
   max-height: 542px;
+  max-width: 1440px;
 }
 .hero__anchor {
   margin-top: 5rem;
@@ -324,6 +325,7 @@ body {
 .block-showcase img {
   width: 100%;
   max-height: 500px;
+  max-width: 1440px;
 }
 .showcase__heading__description {
   margin-top: 4rem;
