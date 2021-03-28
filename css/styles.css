@@ -485,7 +485,6 @@ body {
   padding: 0 1.5rem;
 }
 .block-about img {
-  height: 200px;
   width: 100%;
 }
 .block-about .about__description {
@@ -525,14 +524,22 @@ body {
 
 /* Feature Block */
 .block-feature {
-  text-align: center;
-  background: var(--color-theme);
+  background: #f9f9f9;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
 }
-.block-feature img {
-  margin: auto;
+.feature__header {
+  margin-top: 0;
+}
+.feature__header .english {
+  display: block;
+}
+.feature__image {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .feature__list {
   color: #fff;
@@ -552,6 +559,9 @@ body {
   }
   .block-feature .list {
     list-style: decimal;
+  }
+  .feature__header .english {
+    display: inline;
   }
 }
 /* Media Objects */
