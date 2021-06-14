@@ -1,5 +1,5 @@
 # Ah Ma Recipe
-> This project is built to provide a more attractive and responsive web pages for Ah Ma Recipe, an online store which is hosted on one of the mobile marketing platforms.
+> This main purpose of this project is to provide a more attractive and responsive web pages for Ah Ma Recipe, an online store which is hosted on one of the mobile marketing platforms.
 > Live demo [_here_](https://ahmarecipe.netlify.app/). 
 
 ## Table of Contents
